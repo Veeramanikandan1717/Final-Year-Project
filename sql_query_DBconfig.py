@@ -14,7 +14,7 @@ db_password = st.text_input("Enter database password:", type="password")
 db_name = st.text_input("Enter database name:", "sales")
 
 # Google Generative AI key configuration
-genai.configure(api_key='AIzaSyC-HCR60M8qHjkQs6-JEDXw_iOjENnYYio')
+genai.configure(api_key='your api key')
 
 # Set up the model configuration
 generation_config = {
